@@ -1,9 +1,8 @@
 {
-  "user": [
+  "posts": [
     {
-      "name": "Sanchit",
-      "email": "sanchit@gmail.com"
-      "password":"123"
+      "id": 1,
+      "title": "hello"
     }
   ],
   "profile": {
