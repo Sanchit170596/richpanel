@@ -1,0 +1,131 @@
+.create-account-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1E4C91;
+}
+.create-account-container1 {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 470px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #2b2828;
+  align-items: flex-end;
+  border-radius: 16px;
+  justify-content: flex-start;
+  background-color: #fffaff;
+}
+.create-account-account {
+  top: 40px;
+  left: 110px;
+  color: #4a4848;
+  margin: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+}
+.create-account-name {
+  top: 89px;
+  left: 49px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+}
+.create-account-name1 {
+  top: 119px;
+  left: 49px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-900);
+}
+.create-account-name1:focus {
+  color: var(--dl-color-gray-black);
+  border-color: #868484;
+}
+.create-account-email {
+  top: 169px;
+  left: 49px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+}
+.create-account-email1 {
+  top: 199px;
+  left: 49px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-900);
+}
+.create-account-email1:focus {
+  color: var(--dl-color-gray-black);
+  border-color: #868484;
+}
+.create-account-password {
+  top: 249px;
+  left: 49px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+}
+.create-account-password1 {
+  top: 279px;
+  left: 49px;
+  color: 500 (Gray);
+  position: absolute;
+  font-size: 16px;
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-900);
+}
+.create-account-password1:focus {
+  color: var(--dl-color-gray-black);
+  border-color: #8a8989;
+}
+.create-account-checkbox {
+  left: 50px;
+  bottom: 120px;
+  position: absolute;
+}
+.create-account-text {
+  top: 333px;
+  left: 74px;
+  position: absolute;
+}
+.create-account-button {
+  left: 50px;
+  color: var(--dl-color-gray-white);
+  width: 290px;
+  bottom: 60px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(30, 76, 145);
+}
+.create-account-text1 {
+  left: 71px;
+  bottom: 26px;
+  position: absolute;
+}
+.create-account-navlink {
+  left: 270px;
+  color: var(--dl-color-primary-300);
+  bottom: 26px;
+  position: absolute;
+  text-decoration: none;
+}

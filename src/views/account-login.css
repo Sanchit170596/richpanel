@@ -1,0 +1,108 @@
+.account-login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1E4C91;
+}
+.account-login-container1 {
+  width: 400px;
+  height: 420px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #2b2828;
+  align-items: flex-end;
+  border-radius: 16px;
+  justify-content: flex-start;
+  background-color: #fffaff;
+}
+.account-login-account {
+  top: 45px;
+  left: 80px;
+  color: rgb(74, 72, 72);
+  margin: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+}
+.account-login-email {
+  top: 109px;
+  left: 47px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+}
+.account-login-email1 {
+  top: 139px;
+  left: 47px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-900);
+}
+.account-login-email1:focus {
+  color: var(--dl-color-gray-black);
+  border-color: #868484;
+}
+.account-login-password {
+  top: 189px;
+  left: 47px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+}
+.account-login-password1 {
+  top: 219px;
+  left: 47px;
+  color: 500 (Gray);
+  position: absolute;
+  font-size: 16px;
+  transition: 0.3s;
+  border-color: var(--dl-color-gray-900);
+}
+.account-login-password1:focus {
+  color: var(--dl-color-gray-black);
+  border-color: #8a8989;
+}
+.account-login-checkbox {
+  top: 277px;
+  left: 48px;
+  position: absolute;
+}
+.account-login-text {
+  top: 273px;
+  left: 73px;
+  position: absolute;
+}
+.account-login-button {
+  top: 315px;
+  left: 47px;
+  color: var(--dl-color-gray-white);
+  width: 290px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(30, 76, 145);
+}
+.account-login-text1 {
+  left: 99px;
+  bottom: 30px;
+  position: absolute;
+}
+.account-login-navlink {
+  left: 224px;
+  color: var(--dl-color-primary-300);
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
